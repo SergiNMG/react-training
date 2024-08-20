@@ -1,0 +1,12 @@
+.c-card {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-color: #444;
+  border: 2px solid white;
+  border-radius: 12px;
+
+  &__img {
+    border-radius: inherit;
+  }
+}
